@@ -1,0 +1,25 @@
+# Disques et exports de machines virtuelles
+*.vdi
+*.vhd
+*.vhdx
+*.vmdk
+*.ova
+*.ovf
+
+# ISO et archives lourdes
+*.iso
+*.zip
+*.7z
+
+# Fichiers contenant potentiellement des secrets
+.env
+*.key
+*.pem
+id_rsa
+id_ed25519
+credentials.txt
+passwords.txt
+
+# Captures et fichiers temporaires
+*.tmp
+*.log
